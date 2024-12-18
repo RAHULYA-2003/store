@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+      <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<title>coffee</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"> <img src="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+     <h1>CONTACT US</h1>
+  </section>
+  
+                                    <!-- --------------contact-------- -->
+
+<section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+            <div>
+              <i class="fa-solid fa-house"></i>
+              <span>
+                <h5>Pallapatti Road,ABC Buliding</h5>
+                 <p>Aravakurichi,Karur</p>
+              </span>
+          </div>
+          <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                  <h5>+1 0123456789</h5>
+                  <p>Monday to Saturday 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <span>
+                  <h5>rrahulya817@gmail.com</h5>
+                  <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter email address" required>
+            <input type="text" placeholder="Enter your subject" required>
+            <textarea rows="8" placeholder="Message" required></textarea>
+              <a href="#" class="hero-btn btn3">Send Message</a>
+            
+            
+          </form>
+        </div>
+      </div>
+         
+    </section>
+
+
+                                          <!-- footer -->
+  <section class="footer">
+       <h1>Find us on Social Media</h1>
+       <div class="footer-background">
+        <div class="footer-about">
+             <h3>ABOUT US</h3>
+             <br>
+             <hr>
+             <p>Welcome to Blackpekoe Tea, where every sip is<br> a journey into the heart of premium tea craftsmanship.<br> With over 200+ Franchise outlets worldwide, we are dedicated to<br> bringing you the finest selection of teas that captivate <br>the senses and elevate your tea-drinking experience.</p>
+           </div>
+           <div class="footer-about">
+             <h3>USEFUL LINK</h3>
+             <br>
+             <hr>
+                 <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="menu.html">MENU</a></li>
+                   <li><a href="contact.html">CONTACT US</a></li>
+                      </ul>
+      </div>
+             <div class="footer-about">
+             <h3>FOLLOW US</h3>
+             <br>
+             <hr>
+             <p>Contact us and we'll get back to you within <br>24 hours.<br><i class="fa-solid fa-location-dot"></i> 12345 Fake ST NoWhere AB Country<br>
+             <i class="fa-solid fa-envelopes-bulk"></i>rahulya@123.com</p>
+             
+             <p class="icon">
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-facebook"></i>
+             </p>
+           </div>
+
+       </div>
+           
+     </section>
+
+
+     
+                                               <!-- --------------welcome to coffee-------------- -->
+
+
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+        }
+        function hideMenu(){
+      navLinks.style.right = "-200px";
+        }
+   </script>
+
+</body>
+</html>

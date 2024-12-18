@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<title>coffee</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"> <img src="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+     <div class="text-box">
+          <div class="text-content">
+              <h3>Coffee for hot days</h3>
+              <h1>-cold Brew</h1>
+              <p>Boots Your Productivity and build your mood with a glass of coffee  in the morning. Coffee has s Stimulating effect..</p>
+            <div class="header-main">
+              <a href="#" class="hero-btn">Order Now</a>
+              <a href="#" class="price">$16.00 | <span>Regular Price</span></a>
+            </div>
+           </div>
+
+           <div class="text-img">
+             <img src="hero.png">
+             <a href="#" class="hero-btn btn1">Visit Us To Know More</a>
+           </div>
+      </div>
+  </section>
+                                               <!-- --------------welcome to coffee-------------- -->
+  <section class="header-content">
+    <div class="header-row">
+      <div class="header-col">
+        <img src="about.png">
+      </div>
+       <div class="header-col1">
+         <h1>Welcome to coffee shop</h1>
+         <h3>Experience the Difference</h3>
+         <hr>
+         <p>We invite you to explore our world of premium teas and<br> discover the joy of Blackpekoe Tea. Whether you’re a<br> seasoned tea drinker or new to the world of tea, our doors<br> are always open, and our tea is always ready to impress.</p>
+         <hr>
+          <a href="#" class="hero-btn btn2">Read More</a>
+       </div>
+    </div>
+  </section>
+
+                                    <!-- ------------------------my story---------------- -->
+  <section class="story">
+      <h1>Our Story</h1> 
+      <hr>
+      <p>Founded with a passion for excellence, Blackpekoe Tea is a haven for tea enthusiasts and connoisseurs. Our journey began<br> with a simple mission: to source the highest quality teas from the most renowned tea gardens and share them with the world<br>. Today, we are proud to be a leading name in the tea industry, celebrated for our commitment to quality, sustainability, and<br> innovation.</p>
+  </section>
+                                     <!-- ----------------our tea----------------- -->
+  
+<section class="tea">
+  <h1>OUR TEA'S</h1>
+  <h2>Our unique tea varieties</h2>
+    <div class="row">
+      <div class="tea-col">
+        <img src="tea1.png">
+        <div class="layer">
+          <h3>Ginger Tea</h3>
+        </div>
+      </div>
+      <div class="tea-col">
+        <img src="tea2.png">
+        <div class="layer">
+          <h3>black buster</h3>
+        </div>
+      </div>
+      <div class="tea-col">
+        <img src="tea3.png">
+        <div class="layer">
+          <h3>Super Buster</h3>
+        </div>
+      </div>
+      <div class="tea-col">
+        <img src="tea4.png">
+        <div class="layer">
+          <h3>Rose Tea</h3>
+        </div>
+      </div>
+    </div>    
+</section>
+  <section class="footer">
+       <h1>Find us on Social Media</h1>
+       <div class="footer-background">
+        <div class="footer-about">
+             <h3>ABOUT US</h3>
+             <br>
+             <hr>
+             <p>Welcome to Blackpekoe Tea, where every sip is<br> a journey into the heart of premium tea craftsmanship.<br> With over 200+ Franchise outlets worldwide, we are dedicated to<br> bringing you the finest selection of teas that captivate <br>the senses and elevate your tea-drinking experience.</p>
+           </div>
+           <div class="footer-about">
+             <h3>USEFUL LINK</h3>
+             <br>
+             <hr>
+                 <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="menu.html">MENU</a></li>
+                   <li><a href="contact.html">CONTACT US</a></li>
+                      </ul>
+      </div>
+             <div class="footer-about">
+             <h3>FOLLOW US</h3>
+             <br>
+             <hr>
+             <p>Contact us and we'll get back to you within <br>24 hours.<br><i class="fa-solid fa-location-dot"></i> 12345 Fake ST NoWhere AB Country<br>
+             <i class="fa-solid fa-envelopes-bulk"></i>rahulya@123.com</p>
+             
+             <p class="icon">
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-facebook"></i>
+             </p>
+           </div>
+
+       </div>
+           
+     </section>
+
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+        }
+        function hideMenu(){
+      navLinks.style.right = "-200px";
+        }
+   </script>
+
+</body>
+</html>

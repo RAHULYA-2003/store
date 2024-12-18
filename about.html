@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<title>coffee</title>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"> <img src="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+      </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>ABOUT US</h1>
+  </section>
+                                                 <!-- --------------about  coffee-------------- -->
+  <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <img src="about.jpg">
+        </div>
+        <div class="about-col">
+          <h1>Discover the Art of Tea</h1>
+          <h3>Experience the Difference</h3>
+          <p>Welcome to Blackpekoe Tea, where every sip is a journey into the heart of premium tea craftsmanship. With over 200+ Franchise Outlets worldwide, we are dedicated to bringing you the finest selection of teas that captivate the senses and elevate your tea-drinking experience.Our extensive collection features 16 exquisite varieties, each crafted to perfection. From robust black teas to delicate green blends, our selection caters to a wide range of tastes, ensuring that every tea lover finds their perfect cup.</p>
+          <a href="" class="hero-btn switch-btn">Explore Now</a>
+        </div>
+      </div>
+  </section>
+                                                   <!-- --------------about content-------------- -->
+  <section class="about-content">
+    <h1>About us</h1>
+      <div class="section-gird">
+       <div class="section-row">
+          <div class="section-card">
+            <span><i class="fa-solid fa-quote-left"></i></span>
+            <h4>A Legacy of Excellence</h4>
+            <p>
+              Coffee Tea stands as a beacon of quality and sophistication in the world of tea.
+              With over 200 outlets globally, we have established ourselves as a leading brand, dedicated to delivering the finest teas to discerning customers.With more than 200 outlets around the world, we bring the rich flavors and enchanting aromas of BlackPekoe Tea to a global audience. Despite our widespread presence, we maintain a local touch in each outlet, offering personalized experiences and exceptional customer service.
+            </p>
+        </div>
+  
+          <div class="section-card">
+            <span><i class="fa-solid fa-quote-left"></i></span>
+            <h4>Experience the Difference</h4>
+            <p>
+              Join the BlackPekoe Tea family and experience the difference that dedication to quality, variety, and sustainability can make.  dedicated to delivering the finest teas to discerning customers.With more than 200 outlets around the world, we bring the rich flavors and enchanting aromas of BlackPekoe Tea to a global audience. Despite our widespread presence, we maintain a local touch in each outlet, offering personalized experiences and exceptional customer service.
+            </p>
+           </div>
+          <div class="section-card">
+            <span><i class="fa-solid fa-quote-left"></i></span>
+            <h4>Support and Growth</h4>
+            <p>
+              We are more than just a tea brand; we are a partner in your success. Our hassle-free stock supply, lifetime support, and comprehensive marketing assistance ensure that our partners thrive alongside us. With high returns on investment and a strong brand reputation, BlackPekoe Tea is the ideal choice for businesses looking to offer premium teas. Despite our widespread presence, we maintain a local touch in each outlet, Join the BlackPekoe Tea family and experience the differencethat dedicat
+            </p>
+        </div>
+      </div>
+   </section>
+
+                                           <!-- -----------Gallery-------------- -->
+    <section class="Gallery">
+      <h1>GALLERY</h1>
+      <p>Our latest and best photos<BR><BR>We love to take pictures and show them to the world.</p>
+      <div class="row-Gallery">
+        <img src="g1.png">
+        <img src="g2.png">
+        <img src="g3.png">
+      </div>
+      <div class=" row-Gallery">
+        <img src="g4.png">
+        <img src="g5.png">
+        <img src="g6.png">
+      </div>
+    </section>
+
+
+
+
+
+
+
+                                               <!-- --------------footer-------------- -->
+  <section class="footer">
+    <h1>Find us on Social Media</h1>
+      <div class="footer-background">
+        <div class="footer-about">
+          <h3>ABOUT US</h3><br>
+          <hr>
+          <p>Welcome to Blackpekoe Tea, where every sip is<br> a journey into the heart of premium tea craftsmanship.<br> With over 200+ Franchise outlets worldwide, we are dedicated to<br> bringing you the finest selection of teas that captivate <br>the senses and elevate your tea-drinking experience.</p>
+        </div>
+        <div class="footer-about">
+          <h3>USEFUL LINK</h3>
+          <br>
+          <hr>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+               <li><a href="menu.html">MENU</a></li>
+               <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="footer-about">
+          <h3>FOLLOW US</h3> <br>
+          <hr>
+          <p>Contact us and we'll get back to you within <br>24 hours.<br><i class="fa-solid fa-location-dot"></i> 12345 Fake ST NoWhere AB Country<br>
+          <i class="fa-solid fa-envelopes-bulk"></i>rahulya@123.com</p>
+          <p class="icon">
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </p>
+        </div>
+      </div>
+  </section>
+
+    
+
+    <script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+        }
+        function hideMenu(){
+      navLinks.style.right = "-200px";
+        }
+   </script>
+
+</body>
+</html>
